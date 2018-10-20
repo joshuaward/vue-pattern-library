@@ -1,0 +1,26 @@
+// wizardry 
+@import 
+	'base/variables',
+	'base/functions',
+	'base/mixins';
+
+// base 
+@import 
+	'base/base',
+	'base/grid',
+	'base/fonts',
+	'base/helpers';
+	
+// components
+@import 
+	'components/card',
+	'components/header',
+	'components/hero';
+
+// vendor
+// @import 
+// 	'components/card';
+
+
+
+

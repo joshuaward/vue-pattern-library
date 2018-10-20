@@ -1,0 +1,53 @@
+#cards {
+	
+}
+
+.card {
+	position: relative;
+	border-radius: 3px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.09);
+	overflow: hidden;
+	.card-header {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 150px;
+		background-image: url('https://images.pexels.com/photos/1441508/pexels-photo-1441508.jpeg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.card-content {
+		position: relative;
+		display: block;
+		padding: 20px;
+		p {
+			margin: 0;
+		}
+	}
+	.card-footer {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		button {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			//height: 40px;
+			padding: 10px;
+			//background-color: $vue-green;
+			border: none;
+			color: $vue-green;
+			font-size: 14px;
+			font-weight: 600;
+			span {
+				margin-left: 10px;
+				font-size: 20px;
+			}
+		}
+	}
+}

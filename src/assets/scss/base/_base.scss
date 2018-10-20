@@ -1,0 +1,36 @@
+/* -------------------------------------------------- 
+	Basic Basics
+-------------------------------------------------- */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #2c3e50;
+}
+
+h1 {
+	color: green;
+	font-weight: 300;
+}
+
+a {
+	color: $vue-green;
+	font-weight: 600;
+	text-decoration: none;
+	&:hover {
+		color: $vue-blue;
+	}
+}
+
+img {
+	max-width: 100%;
+}
