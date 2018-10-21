@@ -158,26 +158,6 @@
 			}
 			&:hover {
 				color: $white;
-				&:before,
-				&:after {
-					position: absolute;
-					content: '';
-				}
-				&:before {
-					// bottom: 0;
-					// width: 100%;
-					// height: 2px;
-				}
-				&:after {
-					bottom: 0;
-					left: 50%;
-					width: 0; 
-					height: 0; 
-					border-style: solid;
-					border-width: 0 5px 5px 5px;
-					border-color: transparent transparent $vue-blue transparent;
-					transform: translateX(-50%);
-				}
 			}
 			@media (min-width: $lg) {
 				padding: 15px;
@@ -200,7 +180,6 @@
 					display: none;
 					top: 100%;
 					left: 50%;
-					width: 150%;
 					padding: 0;
 					background-color: rgba($white,0.95);
 					border-top: 4px solid $vue-blue;
@@ -217,7 +196,7 @@
 						z-index: -2;
 						a {
 							display: block;
-							padding: 10px 20px;
+							padding: 15px 25px;
 							&:hover {
 								color: $vue-blue;
 							}

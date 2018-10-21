@@ -1,9 +1,12 @@
 <template>
   <main class="home">
     <div class="grid-container full">
-      <div class="grid-x grid-margin-x">
+      <div class="grid-x grid-margin-x align-center">
         <div class="cell homepage">
           <h1>{{ title }}</h1>
+          <button class="download">
+            Download
+          </button>
         </div>
       </div>
     </div>
@@ -17,7 +20,7 @@ export default {
   },
   data () {
     return {
-      title: 'Home',
+      title: 'Vue Pattern Library'
     }
   }
 }
