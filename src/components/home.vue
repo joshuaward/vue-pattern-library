@@ -1,28 +1,19 @@
 <template>
   <main class="home">
-    <hero></hero>
-    <div class="grid-container">
+    <div class="grid-container full">
       <div class="grid-x grid-margin-x">
-        <div class="cell">
+        <div class="cell homepage">
           <h1>{{ title }}</h1>
         </div>
-      </div>
-      <div class="grid-x grid-padding-x grid-margin-y" id="cards">
-        <card v-for="index in 8" :key="index"></card>
       </div>
     </div>
   </main>
 </template>
 
 <script>
-import hero from '@/components/hero'
-import card from '@/components/card'
-
 export default {
   name: 'home',
   components: {
-    hero,
-    card
   },
   data () {
     return {
